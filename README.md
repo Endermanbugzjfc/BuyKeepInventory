@@ -10,6 +10,10 @@ Now your players can keep their inventory when they dies with money!
 
 Easy and useful!
 
+# Tutorial
+
+[![Tutorial Video](https://img.youtube.com/vi/TjtpxlRXDys/0.jpg)](https://www.youtube.com/watch?v=TjtpxlRXDys)
+
 # Commands
 Main command: /buyki
 
