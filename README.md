@@ -15,28 +15,6 @@ Main command: /buyki
 
 Info command: /buykiinfo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # TODO
 
 - Maybe UI if they want.
@@ -48,12 +26,3 @@ Enter this web site: https://github.com/OguzhanUmutlu/BuyKeepInventory/issues
 # Changelog
 
 v1.0.0 - Added main things.
-
-
-
-
-
-
-
-
-
