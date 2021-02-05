@@ -1,0 +1,11 @@
+---
+
+# Cost of using command
+
+cost: 5000
+
+# Limit of keep inventory
+
+limit: 5
+
+...
