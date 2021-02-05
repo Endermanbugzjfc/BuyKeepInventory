@@ -1,0 +1,87 @@
+---
+command:
+ # Configure the command
+ name: "buyki"
+ description: "Lets you buy keep inventory"
+ 
+ # Other uses of command
+ # For disabling set to:
+ # aliases: []
+ aliases:
+ - "buykeepinventory"
+ 
+ # Command banned worlds option
+ disabled-worlds:
+ - "CommandDisabledWorld1"
+ - "CommandDisabledWorld2"
+ 
+ # Command world whitelist options
+ # If you set false first option second option will not used
+ allowed-worlds-enabled: false
+ allowed-worlds:
+ - "CommandEnabledWorld1"
+ 
+ # Manage command permission
+ # To disable permission set to:
+ # permission: false
+ # To enable type permission node
+ permission: false
+ 
+ # Manage command messages
+ error-permission: "§c> You don't have permisssion."
+ error-disabled: "§c> This command is disabled in this world"
+ error-money: "§c> You don't have enough money."
+ error-max: "§c> You reached keep inventory limit."
+ success: "§a> You succesfully bought keep inventory."
+commandinfo:
+ # Configure the command
+ name: "buykiinfo"
+ description: "Your keep inventory info"
+ 
+ # Other uses of command
+ # For disabling set to:
+ # aliases: []
+ aliases:
+ - "buykeepinvinfo"
+ 
+ # Command banned worlds option
+ disabled-worlds:
+ - "CommandDisabledWorld1"
+ - "CommandDisabledWorld2"
+ 
+ # Command world whitelist options
+ # If you set false first option second option will not used
+ allowed-worlds-enabled: false
+ allowed-worlds:
+ - "CommandEnabledWorld1"
+ 
+ # Manage command permission
+ # To disable permission set to:
+ # permission: false
+ # To enable type permission node
+ permission: false
+ 
+ # Manage command messages
+ error-permission: "§c> You don't have permisssion."
+ 
+ # %0: keep inventory count
+ # %1: keep inventory limit
+ # %2: keep inventory costi
+ # %3: player's name
+ success: "§a> You have %0/%1 keep inventory.\n§a> Keep inventory cost: $%2"
+event:
+ # When someone dies it will happen
+ 
+ # Event banned worlds option
+ disabled-worlds:
+ - "CommandDisabledWorld1"
+ - "CommandDisabledWorld2"
+ 
+ # Event world whitelist options
+ # If you set false first option second option will not used
+ allowed-worlds-enabled: false
+ allowed-worlds:
+ - "CommandEnabledWorld1"
+ 
+ success: "§e> Your inventory kept."
+...
