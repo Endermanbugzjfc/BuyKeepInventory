@@ -1,0 +1,5 @@
+name: BuyKeepInv
+description: Lets your players to buy keep inventory
+main: OguzhanUmutlu\BuyKeepInv\Main
+api: 3.0.0
+version: 1.0.0
