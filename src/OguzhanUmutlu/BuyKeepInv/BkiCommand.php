@@ -16,7 +16,7 @@ class BkiCommand extends Command implements PluginIdentifiableCommand {
         parent::__construct(strtolower($plugin->messages->getNested("command.name")), $plugin->messages->getNested("command.description"), null, $plugin->messages->getNested("command.aliases"));
     }
     public function execute(CommandSender $player, string $commandLabel, array $args) {
-      if($this->plugin->messages->getNested("command.permission") && !$player->hasPermission($this->plugin->messages->getNested("command.permission"))) {
+      if($this->plugin->messages->getNested("command.permission") && !$player->hasPermission("buykeepinventory.".$this->plugin->messages->getNested("command.permission"))) {
         $player->sendMessage($this->plugin->messages->getNested("command.error-permission"));
         return true;
       }
