@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener {
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
     @mkdir($this->getDataFolder());
     $this->getServer()->getCommandMap()->register($this->getName(), new BkiCommand($this));
-    $this->getServer()->getCommandMap()->register($this->getName()."1", new BkiInfoCommand($this));
+    $this->getServer()->getCommandMap()->register($this->getName(), new BkiInfoCommand($this));
   }
   public function onDeath(PlayerDeathEvent $e) {
     $player = $e->getPlayer();
