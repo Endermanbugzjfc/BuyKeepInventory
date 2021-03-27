@@ -32,3 +32,5 @@ Enter this web site: https://github.com/OguzhanUmutlu/BuyKeepInventory/issues
 # Changelog
 
 v1.0.0 - Added main things.
+
+v1.0.1 - Added giving/adding/taking keep inventory and disabling buying keep inventory. Some bugfixes. (This was a big update but only 0.0.1 changed lol)
