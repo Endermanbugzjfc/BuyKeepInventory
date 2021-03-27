@@ -12,6 +12,8 @@ Easy and useful!
 
 # Tutorial
 
+v1.0.0
+
 [![Tutorial Video](https://img.youtube.com/vi/TjtpxlRXDys/0.jpg)](https://www.youtube.com/watch?v=TjtpxlRXDys)
 
 # Commands
