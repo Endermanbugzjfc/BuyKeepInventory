@@ -20,11 +20,11 @@ command:
  permission: false
  
  # Manage command messages
- error-permission: "§c> You don't have permisssion."
+ error-permission: "§c> You don't have permission."
  error-disabled: "§c> This command is disabled in this world"
  error-money: "§c> You don't have enough money."
  error-max: "§c> You reached keep inventory limit."
- success: "§a> You succesfully bought keep inventory."
+ success: "§a> You successfully bought keep inventory."
 
 
 
@@ -49,7 +49,7 @@ commandinfo:
  permission: false
  
  # Manage command messages
- error-permission: "§c> You don't have permisssion."
+ error-permission: "§c> You don't have permission."
  
  # %0: keep inventory count
  # %1: keep inventory limit
@@ -80,7 +80,7 @@ commandgive:
  permission: false
 
  # Manage command messages
- error-permission: "§c> You don't have permisssion."
+ error-permission: "§c> You don't have permission."
  error-usage: "§c> Usage: /buykigive <player>"
  # %0 - Target player
  error-not-online: "§c> %0 is offline."
@@ -116,7 +116,7 @@ commandadd:
  permission: cmd.add
 
  # Manage command messages
- error-permission: "§c> You don't have permisssion."
+ error-permission: "§c> You don't have permission."
  error-usage: "§c> Usage: /buykiadd <player>"
  # %0 - Target player
  error-not-online: "§c> %0 is offline."
@@ -148,7 +148,7 @@ commandtake:
  permission: cmd.take
 
  # Manage command messages
- error-permission: "§c> You don't have permisssion."
+ error-permission: "§c> You don't have permission."
  error-usage: "§c> Usage: /buykitake <player>"
  # %0 - Target player
  error-not-online: "§c> %0 is offline."
